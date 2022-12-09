@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.services_card_button{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.services_cards-item{
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(12, 68, 204, 0.1);
+    border-radius: 6px;
+    height: 385px;
+    padding: 35px;
+    .services_card_icon{
+        border: 1px solid #F1F6FA;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 35px auto;
+        padding: 10px;
+    }
+    .services_card_button{
+        width: 95px;
+        margin: 35px auto;
+        a{
+            font-size: 14px;
+        }
+    }
+    .services_card_title{
+        h3{
+            font-size: 22px;
+            margin-bottom: 16px;
+            font-family: 'Manrope', sans-serif; 
+        }
+    }
+    .services_card_description{
+        p{
+            font-size: 16px;
+            color: #9497A1;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+    .services_card_button_link{
+        font-size: 14px;
+        font-family: 'Manrope', sans-serif; 
+        font-weight: 600;
+        color: #185CFF;
+        text-decoration: none;
+    }
+}
+
